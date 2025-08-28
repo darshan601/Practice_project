@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore", "EFCore\EFCore.csproj", "{4C418602-0A1A-4A51-8AE0-6A7C348AEF31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication", "Authentication\Authentication.csproj", "{C0C58455-09DA-4369-97BD-C15B6DDCEE4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTLibrary", "JWTLibrary\JWTLibrary.csproj", "{36DDF8BF-BD83-4DDE-B224-6D7E12E26F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMicroservice", "OrderMicroservice\OrderMicroservice.csproj", "{E039F2CB-4B93-425A-BFA9-BC83A03DD1A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{E10C3837-99DD-4C29-8839-6991CDD378C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGateway", "OcelotApiGateway\OcelotApiGateway.csproj", "{4DEECFC8-F612-4036-8272-82857F6063EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskMicroservice", "TaskMicroservice\TaskMicroservice.csproj", "{CFD459AE-030B-43E9-AE62-362187B189F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C418602-0A1A-4A51-8AE0-6A7C348AEF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C418602-0A1A-4A51-8AE0-6A7C348AEF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C418602-0A1A-4A51-8AE0-6A7C348AEF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C418602-0A1A-4A51-8AE0-6A7C348AEF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C58455-09DA-4369-97BD-C15B6DDCEE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C58455-09DA-4369-97BD-C15B6DDCEE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C58455-09DA-4369-97BD-C15B6DDCEE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C58455-09DA-4369-97BD-C15B6DDCEE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DDF8BF-BD83-4DDE-B224-6D7E12E26F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DDF8BF-BD83-4DDE-B224-6D7E12E26F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DDF8BF-BD83-4DDE-B224-6D7E12E26F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DDF8BF-BD83-4DDE-B224-6D7E12E26F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E039F2CB-4B93-425A-BFA9-BC83A03DD1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E039F2CB-4B93-425A-BFA9-BC83A03DD1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E039F2CB-4B93-425A-BFA9-BC83A03DD1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E039F2CB-4B93-425A-BFA9-BC83A03DD1A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E10C3837-99DD-4C29-8839-6991CDD378C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E10C3837-99DD-4C29-8839-6991CDD378C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E10C3837-99DD-4C29-8839-6991CDD378C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E10C3837-99DD-4C29-8839-6991CDD378C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEECFC8-F612-4036-8272-82857F6063EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEECFC8-F612-4036-8272-82857F6063EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEECFC8-F612-4036-8272-82857F6063EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEECFC8-F612-4036-8272-82857F6063EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD459AE-030B-43E9-AE62-362187B189F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD459AE-030B-43E9-AE62-362187B189F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD459AE-030B-43E9-AE62-362187B189F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD459AE-030B-43E9-AE62-362187B189F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

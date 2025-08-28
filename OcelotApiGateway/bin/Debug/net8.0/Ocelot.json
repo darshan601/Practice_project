@@ -1,0 +1,94 @@
+{
+  "Routes": [
+    //    JWT Authentication
+    {
+      "DownstreamPathTemplate": "/api/authentication/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [{"Host": "localhost", "Port": 5001}],
+      "UpstreamPathTemplate": "/api/authentication/{everything}",
+      "UpstreamHttpMethod": ["GET","POST"],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "30s",
+        "Limit": 1,
+        "PeriodTimespan": 10
+      }
+    },
+    
+    //    Genre APi
+    //    GET
+    {
+      "DownstreamPathTemplate": "/api/genre/genres/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }],
+      "UpstreamPathTemplate": "/api/genre/genres/",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    
+    //    POST, PUT
+    {
+      "DownstreamPathTemplate": "/api/genre/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }],
+      "UpstreamPathTemplate": "/api/genre/{everything}",
+      "UpstreamHttpMethod": ["POST", "PUT", "DELETE"],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
+    },  
+    
+    // Movie Api
+    //    Get
+    {
+      "DownstreamPathTemplate": "/api/movie/get-all",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }],
+      "UpstreamPathTemplate": "/api/movie/get-all",
+      "UpstreamHttpMethod": ["GET"]
+    },
+    
+    //    POST. PUT, DELETE
+    {
+      "DownstreamPathTemplate": "/api/movie/{everything}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5002
+      }],
+      "UpstreamPathTemplate": "/api/movie/{everything}",
+      "UpstreamHttpMethod": ["POST","PUT","DELETE"],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
+    },
+    
+    //    Order APi - GET
+    {
+      "DownstreamPathTemplate": "/api/order/get-message",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [{
+        "Host": "localhost",
+        "Port": 5003
+      }],
+      "UpstreamPathTemplate": "/api/order/get-message",
+      "UpstreamHttpMethod": ["GET"]
+    }
+    
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5004",
+    "RateLimitOptions": {
+      "QuotaExceededMessage": "You are overwhelming me with multiple request. Yamete Kudasai"
+    }
+  }
+}

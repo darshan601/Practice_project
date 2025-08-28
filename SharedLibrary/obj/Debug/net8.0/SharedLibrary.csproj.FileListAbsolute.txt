@@ -1,0 +1,12 @@
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/bin/Debug/net8.0/SharedLibrary.deps.json
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/bin/Debug/net8.0/SharedLibrary.dll
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/bin/Debug/net8.0/SharedLibrary.pdb
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/Debug/net8.0/SharedLibrary.csproj.AssemblyReference.cache
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/Debug/net8.0/SharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/Debug/net8.0/SharedLibrary.AssemblyInfoInputs.cache
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/Debug/net8.0/SharedLibrary.AssemblyInfo.cs
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/Debug/net8.0/SharedLibrary.csproj.CoreCompileInputs.cache
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/Debug/net8.0/SharedLibrary.dll
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/Debug/net8.0/refint/SharedLibrary.dll
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/Debug/net8.0/SharedLibrary.pdb
+/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/Debug/net8.0/ref/SharedLibrary.dll

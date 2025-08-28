@@ -1,0 +1,55 @@
+EF Core => EFCore.Design, EFCore.SQLServer, EFCore.Tools, EFCore
+
+EF Core Lazy Loading => EFCore.Proxies
+
+JWT Auth => MSFT.ASPNETCore.Authentication.JwtBearer
+
+AutoMapper => AutoMapper
+
+-------
+Caching - InMemory Cache => MSFT.Extensions.Caching.Memory
+
+How to implement =>
+In Program.Cs
+Add builder.Services.AddMemoryCache();
+
+In Service:
+Import IMemoryCache cache
+cache.get<Type>(name)
+cache.set(name, value, timespan)
+
+-------
+
+Redis - Caching => StackExchange.Redis
+
+docker run -p 6379:6379 redis
+
+How to Implement =>
+builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("localhost"));
+
+In Service Class:
+IConnectionMultiplexer muxer
+private readonly IDatabase redis=muxer.GetDatabase();
+redis.StringGetAsync(nameof(GetMoviesAsync));
+await redis.StringSetAsync(nameof(GetMoviesAsync), JsonSerializer.Serialize(responseList),
+            TimeSpan.FromMinutes(2));
+
+---------
+
+RabbitMq => RabbitMQ.Client
+
+
+-----------
+
+Global Exception Middleware => Aspnetcore.mvc.core, aspnetcore.http
+
+ClassName(RequestDelegate next)
+First -> Task InvokeAsync(HttpContext context)
+declare default variables such as messgae, statuscode, title
+await next(context)
+then check statuscodes for each error, and set message, statuscode, title for that error;
+then call other function ModifyHeader -> (HttpContext, title, message, statuscode)
+set context.response.contenttype="application/json)
+awwait context.response.writeasync(serialize(new problemdetails(detail=message, status=statusCode, title), cancelationtoken.None)
+return;
+
