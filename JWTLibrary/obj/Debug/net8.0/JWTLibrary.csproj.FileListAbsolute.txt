@@ -10,3 +10,16 @@
 /Users/darshanuttammistry/Developer/projects/PracticeProject/JWTLibrary/obj/Debug/net8.0/refint/JWTLibrary.dll
 /Users/darshanuttammistry/Developer/projects/PracticeProject/JWTLibrary/obj/Debug/net8.0/JWTLibrary.pdb
 /Users/darshanuttammistry/Developer/projects/PracticeProject/JWTLibrary/obj/Debug/net8.0/ref/JWTLibrary.dll
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/bin/Debug/net8.0/JWTLibrary.deps.json
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/bin/Debug/net8.0/JWTLibrary.dll
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/bin/Debug/net8.0/JWTLibrary.pdb
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/JWTLibrary.csproj.AssemblyReference.cache
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/JWTLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/JWTLibrary.AssemblyInfoInputs.cache
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/JWTLibrary.AssemblyInfo.cs
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/JWTLibrary.csproj.CoreCompileInputs.cache
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/JWTLibrary.sourcelink.json
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/JWTLibrary.dll
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/refint/JWTLibrary.dll
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/JWTLibrary.pdb
+/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/Debug/net8.0/ref/JWTLibrary.dll

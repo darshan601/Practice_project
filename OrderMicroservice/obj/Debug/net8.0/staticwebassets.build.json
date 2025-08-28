@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "fzLj6d/QmoNnufZminRaS1+R3zsLDE/RgJqGxBJeX6A=",
+  "Hash": "ycwYvR9UlEba92djuZkSQqpt1qHW2lnsOpWJVuu1RGk=",
   "Source": "OrderMicroservice",
   "BasePath": "_content/OrderMicroservice",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

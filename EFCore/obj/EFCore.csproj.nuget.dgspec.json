@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/Users/darshanuttammistry/Developer/projects/PracticeProject/EFCore/EFCore.csproj": {}
+    "/home/runner/work/Practice_project/Practice_project/EFCore/EFCore.csproj": {}
   },
   "projects": {
-    "/Users/darshanuttammistry/Developer/projects/PracticeProject/EFCore/EFCore.csproj": {
+    "/home/runner/work/Practice_project/Practice_project/EFCore/EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/darshanuttammistry/Developer/projects/PracticeProject/EFCore/EFCore.csproj",
+        "projectUniqueName": "/home/runner/work/Practice_project/Practice_project/EFCore/EFCore.csproj",
         "projectName": "EFCore",
-        "projectPath": "/Users/darshanuttammistry/Developer/projects/PracticeProject/EFCore/EFCore.csproj",
-        "packagesPath": "/Users/darshanuttammistry/.nuget/packages/",
-        "outputPath": "/Users/darshanuttammistry/Developer/projects/PracticeProject/EFCore/obj/",
+        "projectPath": "/home/runner/work/Practice_project/Practice_project/EFCore/EFCore.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/Practice_project/Practice_project/EFCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/darshanuttammistry/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/Users/darshanuttammistry/.nuget/NuGet": {},
-          "/Users/darshanuttammistry/.nuget/NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/darshanuttammistry/Developer/projects/PracticeProject/JWTLibrary/JWTLibrary.csproj": {
-                "projectPath": "/Users/darshanuttammistry/Developer/projects/PracticeProject/JWTLibrary/JWTLibrary.csproj"
+              "/home/runner/work/Practice_project/Practice_project/JWTLibrary/JWTLibrary.csproj": {
+                "projectPath": "/home/runner/work/Practice_project/Practice_project/JWTLibrary/JWTLibrary.csproj"
               },
-              "/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/SharedLibrary.csproj": {
-                "projectPath": "/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/SharedLibrary.csproj"
+              "/home/runner/work/Practice_project/Practice_project/SharedLibrary/SharedLibrary.csproj": {
+                "projectPath": "/home/runner/work/Practice_project/Practice_project/SharedLibrary/SharedLibrary.csproj"
               }
             }
           }
@@ -41,13 +39,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -113,28 +105,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/darshanuttammistry/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/darshanuttammistry/Developer/projects/PracticeProject/JWTLibrary/JWTLibrary.csproj": {
+    "/home/runner/work/Practice_project/Practice_project/JWTLibrary/JWTLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/darshanuttammistry/Developer/projects/PracticeProject/JWTLibrary/JWTLibrary.csproj",
+        "projectUniqueName": "/home/runner/work/Practice_project/Practice_project/JWTLibrary/JWTLibrary.csproj",
         "projectName": "JWTLibrary",
-        "projectPath": "/Users/darshanuttammistry/Developer/projects/PracticeProject/JWTLibrary/JWTLibrary.csproj",
-        "packagesPath": "/Users/darshanuttammistry/.nuget/packages/",
-        "outputPath": "/Users/darshanuttammistry/Developer/projects/PracticeProject/JWTLibrary/obj/",
+        "projectPath": "/home/runner/work/Practice_project/Practice_project/JWTLibrary/JWTLibrary.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/Practice_project/Practice_project/JWTLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/darshanuttammistry/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/Users/darshanuttammistry/.nuget/NuGet": {},
-          "/Users/darshanuttammistry/.nuget/NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -147,13 +137,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -180,28 +164,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/darshanuttammistry/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/SharedLibrary.csproj": {
+    "/home/runner/work/Practice_project/Practice_project/SharedLibrary/SharedLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/SharedLibrary.csproj",
+        "projectUniqueName": "/home/runner/work/Practice_project/Practice_project/SharedLibrary/SharedLibrary.csproj",
         "projectName": "SharedLibrary",
-        "projectPath": "/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/SharedLibrary.csproj",
-        "packagesPath": "/Users/darshanuttammistry/.nuget/packages/",
-        "outputPath": "/Users/darshanuttammistry/Developer/projects/PracticeProject/SharedLibrary/obj/",
+        "projectPath": "/home/runner/work/Practice_project/Practice_project/SharedLibrary/SharedLibrary.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/Practice_project/Practice_project/SharedLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/darshanuttammistry/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/Users/darshanuttammistry/.nuget/NuGet": {},
-          "/Users/darshanuttammistry/.nuget/NuGet": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -214,13 +196,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -275,7 +251,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/darshanuttammistry/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
